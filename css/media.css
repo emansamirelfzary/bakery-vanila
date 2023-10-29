@@ -1,0 +1,113 @@
+@media screen and (max-width:768px){
+    .row{
+        margin-right: 0 !important;
+    }
+    .head .info{
+        visibility: hidden;
+    }
+    header .carousel-caption .caption-btn a {
+        padding: .7rem 1.8rem;
+    }
+    .latest-blog .blog .overlay{
+        display: none;
+    }
+    .latest-blog .blog .blog-info{
+        position: static !important;
+        background-color:rgb(41 32 60 / 75%) ;
+    }
+    .latest-blog .blog .blog-info h3 a{
+        font-size: 1.25rem;
+    }
+    .shoping .owl-item .icon a{
+       padding:  .3rem .5rem;
+    }
+    .shoping .owl-item .icon a i{
+        font-size: .7rem;    }
+
+}
+@media screen and (min-width:991px) {
+
+    nav .main-drop:hover .drop-menu {
+        top: 50px;
+        opacity: 1;
+        z-index: 999;
+        visibility: visible;
+    }
+   
+}
+
+    @media screen and (max-width:1000px) {
+        .main-title {
+            width: 100% !important;
+        }
+        .main-title h2{
+            font-size: 1.7rem;
+        }
+    .main-title h2::before, .main-title h2::after{
+        display: none;}
+        nav .main-menu {
+           flex-direction: column;
+       
+       
+        }
+       
+        
+        .main-menu .drop-menu{
+       position: relative !important;
+       transform: translateX(0);
+        margin: -1rem 0 0 2rem !important;
+        transition:height 1s ease,opacity 1s ease !important;
+        opacity: 0;
+        top: 0px !important;
+        height: 0;
+       box-shadow: none;
+       visibility: visible;
+        }
+        nav .main-drop:focus-within .drop-menu {
+           position: relative !important;
+           height: 130px;
+           z-index: 9999;
+           opacity: 1;
+           margin-top: 1rem !important;
+        }
+        .main-drop .drop-menu::before{
+           display: none;
+        }
+        .main-drop .drop-menu a::before{
+           display: none;
+        }
+        .main-drop .drop-menu li:hover {
+           padding-left: 0;
+          
+       
+        }
+        .main-drop .drop-menu li {
+           margin-top: .8rem; 
+           opacity: 0;
+           transition: 1s;
+           transition-delay: .2s;
+        }
+        nav .main-drop:focus-within .drop-menu li {
+           opacity: 1;
+        }
+        nav .menu > a{border: none;}
+        .shop .drop-menu{
+            left: -100px !important;
+            z-index:999999 ;
+           }
+           .shop .drop-menu::before{
+            display: none;
+           }
+       
+           nav .logo img {
+               width: 100px;
+       
+           }
+           .hot-deal .deal span {
+            font-size: 1.9rem;
+        }
+        .hot-deal .count div p:first-child {
+            font-size:2rem ;
+           
+       }}
+       
